@@ -1,3 +1,4 @@
+//Test GitHub
 var player1;
 var map1;
 var panorama1;
