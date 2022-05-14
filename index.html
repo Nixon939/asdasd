@@ -1,0 +1,23 @@
+
+ <!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Google player (Street View)</title>
+<script src="index.js"> </script>
+<link rel="nofollow" href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg"></script>  
+
+<!--<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+-->
+</head>
+<body onload="initialize()">
+  <div id="map_canvas" style="width: 800px; height: 600px; top: 5px;"></div>
+  <div id="pano" style="position:absolute; left:810px; top: 5px; width: 800px; height: 600px;"></div>
+  <NOBR>
+<input type="button" value="Next" onclick="onClickNext()">
+<input type="button" value="Back" onclick="onClickBack()">
+<input type="button" value="Save" onclick="onClickSave()">
+</NOBR>
+</body>
+</html>
